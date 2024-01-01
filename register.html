@@ -1,0 +1,24 @@
+<!-- register.html -->
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat App - アカウント登録</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app">
+    <!-- アカウント登録画面 -->
+    <div id="register-screen" style="display: none;">
+      <h2>アカウント登録</h2>
+      <label for="username-input">ユーザー名:</label>
+      <input type="text" id="username-input" placeholder="ユーザー名を入力">
+      <label for="avatar-input">アバターURL:</label>
+      <input type="text" id="avatar-input" placeholder="アバターのURLを入力">
+      <button onclick="registerUser()">登録</button>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
